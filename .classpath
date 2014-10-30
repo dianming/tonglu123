@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="src" path="ToolDemo"/>
+	<classpathentry kind="src" path="JDBC"/>
+	<classpathentry kind="src" path="solr"/>
+	<classpathentry kind="src" path="map"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_6_CONTAINER"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/pinyin4j/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/solr/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/solr/httpclient-4.3.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/solr/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/solr/httpmime-4.3.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/solr/noggit-0.5.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/solr/solr-solrj-4.7.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mmseg4j/mmseg4j-analysis-1.9.2-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mmseg4j/mmseg4j-core-1.9.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mmseg4j/mmseg4j-solr-1.9.1.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
