@@ -1,0 +1,3 @@
+<mvc:annotation-driven /> 
+这里注解需要了解，位置顺序会导致乱码，
+java HttpClient 模拟请求，如果报头不对，挑动<mvc:annotation-driven /> 位置就可以。Accept有什么关系？

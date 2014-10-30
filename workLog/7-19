@@ -1,0 +1,17 @@
+关于mybatis添加成功后的返回值，默认 0 失败 1 成功
+
+spring 配置文件
+<constructor-arg index="1" value="BATCH" />
+这段值注入，注入了 org.mybatis.spring.SqlSessionTemplate 的批量处理
+
+mybatis-config配置文件
+<setting name="defaultExecutorType" value="BATCH" /> 批处理配置
+
+上面的两个配置导致 结果不能正常放回 影响行数
+
+==============
+配置返回主键，和 sql servlet 配置一样，自动生成主键，返回实体，持久，瞬时，游离，这些状态类似
+@Options(useGeneratedKeys = true ,keyProperty="id")
+
+===================
+@Param 其别名，绑定参数，否者 使用占位符  0 开始

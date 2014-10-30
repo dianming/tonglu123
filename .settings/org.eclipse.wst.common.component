@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="exception">
+        <wb-resource deploy-path="/" source-path="/WebRoot"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/config"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/ToolDemo"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/JDBC"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/solr"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/map"/>
+        <property name="context-root" value="/exception"/>
+        <property name="java-output-path" value="/exception/WebRoot/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
