@@ -25,7 +25,7 @@
 </head>
 
 <body>
-	<a href="<%= path %>/solution/show">写文章</a><br/>
+	<a href="<%= path %>/solution/show">写文章x</a><br/>
 	<a href="<%= path %>/solution/showEssayList">文章列表</a>
 </body>
 </html>
